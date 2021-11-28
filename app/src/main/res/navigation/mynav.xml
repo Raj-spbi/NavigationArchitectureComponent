@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mynav"
+    android:label="Nav Title"
+    app:startDestination="@id/firstDestination">
+
+    <fragment
+        android:id="@+id/firstDestination"
+        android:name="com.aakash.jetpacknaviagtioncomp.FirstDestination"
+        android:label="Home"
+        tools:layout="@layout/fragment_first_destination" />
+    <fragment
+        android:id="@+id/secondDestination"
+        android:name="com.aakash.jetpacknaviagtioncomp.SecondDestination"
+        android:label="Notification"
+        tools:layout="@layout/fragment_second_destination" />
+    <fragment
+        android:id="@+id/thirdDestination"
+        android:name="com.aakash.jetpacknaviagtioncomp.ThirdDestination"
+        android:label="Gallery"
+        tools:layout="@layout/fragment_third_destination" />
+</navigation>

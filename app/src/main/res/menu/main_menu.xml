@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/firstDestination"
+        android:icon="@drawable/home_ic"
+        android:title="Home" />
+    <item
+        android:id="@+id/secondDestination"
+        android:icon="@drawable/bell_ic"
+        android:title="Notification" />
+    <item
+        android:id="@+id/thirdDestination"
+        android:icon="@drawable/gallery_ic"
+        android:title="Gallery" />
+</menu>
